@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LiveTvOptions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <GuideDays xsi:nil="true" />
+  <EnableRecordingSubfolders>false</EnableRecordingSubfolders>
+  <EnableOriginalAudioWithEncodedRecordings>false</EnableOriginalAudioWithEncodedRecordings>
+  <TunerHosts>
+    <TunerHostInfo>
+      <Id>620b8e09d3974aff9d4584ad09b59f34</Id>
+      <Url>http://yep.rekpv.com:8080/get.php?username=opnoicex&amp;password=9i5kgGgF75&amp;type=m3u_plus&amp;output=ts</Url>
+      <Type>m3u</Type>
+      <ImportFavoritesOnly>false</ImportFavoritesOnly>
+      <AllowHWTranscoding>false</AllowHWTranscoding>
+      <AllowFmp4TranscodingContainer>false</AllowFmp4TranscodingContainer>
+      <AllowStreamSharing>true</AllowStreamSharing>
+      <FallbackMaxStreamingBitrate>30000000</FallbackMaxStreamingBitrate>
+      <EnableStreamLooping>true</EnableStreamLooping>
+      <TunerCount>0</TunerCount>
+      <IgnoreDts>true</IgnoreDts>
+    </TunerHostInfo>
+  </TunerHosts>
+  <ListingProviders />
+  <PrePaddingSeconds>0</PrePaddingSeconds>
+  <PostPaddingSeconds>0</PostPaddingSeconds>
+  <MediaLocationsCreated />
+  <RecordingPostProcessorArguments>"{path}"</RecordingPostProcessorArguments>
+  <SaveRecordingNFO>true</SaveRecordingNFO>
+  <SaveRecordingImages>true</SaveRecordingImages>
+</LiveTvOptions>

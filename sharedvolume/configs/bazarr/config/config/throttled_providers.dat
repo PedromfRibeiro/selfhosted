@@ -1,0 +1,1 @@
+{'subdl': ('ConfigurationError', datetime.datetime(2025, 3, 4, 3, 17, 17, 813496), '12 hours'), 'opensubtitlescom': ('ConfigurationError', datetime.datetime(2025, 3, 4, 3, 17, 17, 952806), '12 hours'), 'legendasdivx': ('AuthenticationError', datetime.datetime(2025, 3, 4, 3, 17, 28, 446849), '12 hours')}

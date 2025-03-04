@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PluginConfiguration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <KeepMoviesFor>7</KeepMoviesFor>
+  <KeepMoviesNotPlayedFor>-1</KeepMoviesNotPlayedFor>
+  <KeepPlayedMovies>AnyUser</KeepPlayedMovies>
+  <KeepFavoriteMovies>AnyUser</KeepFavoriteMovies>
+  <KeepEpisodesFor>21</KeepEpisodesFor>
+  <KeepEpisodesNotPlayedFor>-1</KeepEpisodesNotPlayedFor>
+  <KeepPlayedEpisodes>AnyUser</KeepPlayedEpisodes>
+  <KeepFavoriteEpisodes>AnyUser</KeepFavoriteEpisodes>
+  <DeleteEpisodes>Episode</DeleteEpisodes>
+  <KeepVideosFor>-1</KeepVideosFor>
+  <KeepVideosNotPlayedFor>-1</KeepVideosNotPlayedFor>
+  <KeepPlayedVideos>AnyUser</KeepPlayedVideos>
+  <KeepFavoriteVideos>AnyUser</KeepFavoriteVideos>
+  <KeepAudioFor>-1</KeepAudioFor>
+  <KeepAudioNotPlayedFor>-1</KeepAudioNotPlayedFor>
+  <KeepPlayedAudio>AnyUser</KeepPlayedAudio>
+  <KeepFavoriteAudio>AnyUser</KeepFavoriteAudio>
+  <KeepAudioBooksFor>-1</KeepAudioBooksFor>
+  <KeepAudioBooksNotPlayedFor>-1</KeepAudioBooksNotPlayedFor>
+  <KeepPlayedAudioBooks>AnyUser</KeepPlayedAudioBooks>
+  <KeepFavoriteAudioBooks>AnyUser</KeepFavoriteAudioBooks>
+  <UsersIgnorePlayed />
+  <UsersPlayedMode>Ignore</UsersPlayedMode>
+  <UsersIgnoreFavorited />
+  <UsersFavoritedMode>Ignore</UsersFavoritedMode>
+  <LocationsExcluded>
+    <string>/media/Videos/Movies</string>
+    <string>/media/Videos/TVShows</string>
+  </LocationsExcluded>
+  <LocationsMode>Include</LocationsMode>
+  <MarkAsUnplayed>false</MarkAsUnplayed>
+  <CountAsNotPlayedAfter>-1</CountAsNotPlayedAfter>
+</PluginConfiguration>

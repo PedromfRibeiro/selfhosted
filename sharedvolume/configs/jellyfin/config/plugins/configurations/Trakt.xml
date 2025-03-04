@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PluginConfiguration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <TraktUsers>
+    <TraktUser>
+      <AccessToken>35134dce0e9aeb928e12334964b2967657f94e64dc4f51363cc9f9e06d1d580d</AccessToken>
+      <RefreshToken>8d562f22dcc97e78e4509fdb51abc04e36ca3d785712e6a9f39ed84e4660a81f</RefreshToken>
+      <LinkedMbUserId>eaa3a033-0778-4e06-acc0-b6d211a6d46b</LinkedMbUserId>
+      <SkipUnwatchedImportFromTrakt>true</SkipUnwatchedImportFromTrakt>
+      <SkipPlaybackProgressImportFromTrakt>false</SkipPlaybackProgressImportFromTrakt>
+      <SkipWatchedImportFromTrakt>false</SkipWatchedImportFromTrakt>
+      <PostWatchedHistory>true</PostWatchedHistory>
+      <PostUnwatchedHistory>false</PostUnwatchedHistory>
+      <PostSetWatched>true</PostSetWatched>
+      <PostSetUnwatched>false</PostSetUnwatched>
+      <ExtraLogging>false</ExtraLogging>
+      <ExportMediaInfo>true</ExportMediaInfo>
+      <SynchronizeCollections>true</SynchronizeCollections>
+      <Scrobble>true</Scrobble>
+      <AccessTokenExpiration>2025-04-19T01:13:52.1975695+00:00</AccessTokenExpiration>
+      <DontRemoveItemFromTrakt>true</DontRemoveItemFromTrakt>
+    </TraktUser>
+  </TraktUsers>
+</PluginConfiguration>

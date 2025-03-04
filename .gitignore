@@ -1,2 +1,138 @@
-sharedvolume/*
+/sharedvolume/Videos/*
 configs/*
+*.srt
+*.jpg
+*.png
+*.zip
+*.js
+*.json
+*.sup
+*.db
+*.pid
+*.session
+*.installation
+*.dll
+*.mblink
+*.mkv
+
+# Ignore logs
+/sharedvolume/configs/**/logs/
+/sharedvolume/configs/**/*.log
+
+# Ignore cache and temporary files
+/sharedvolume/configs/**/cache/
+/sharedvolume/configs/**/temp/
+/sharedvolume/configs/**/*.tmp
+
+# Ignore backup and database lock files
+/sharedvolume/configs/**/*.db-shm
+/sharedvolume/configs/**/*.db-wal
+/sharedvolume/configs/**/*.bak
+/sharedvolume/configs/**/*.old
+/sharedvolume/configs/**/*.swp
+
+# Ignore system-specific files
+/sharedvolume/configs/.DS_Store
+/sharedvolume/configs/Thumbs.db
+
+# Ignore Docker-related files
+/sharedvolume/configs/docker-compose.override.yml
+/sharedvolume/configs/.env
+/sharedvolume/configs/.env.*
+
+# Ignore Homarr-specific files
+/sharedvolume/configs/homarr/public/icons/generated/
+
+# Ignore Jellyfin-specific files
+/sharedvolume/configs/jellyfin/config/data/collections/
+/sharedvolume/configs/jellyfin/metadata/
+/sharedvolume/configs/jellyfin/log/
+/sharedvolume/configs/jellyfin/data/transcodes/
+/sharedvolume/configs/jellyfin/config/lastfm/
+/sharedvolume/configs/jellyfin/config/Cache/
+/sharedvolume/configs/jellyseerr/config/db
+# Ignore qBittorrent-specific files
+/sharedvolume/configs/qbittorrent/logs/
+/sharedvolume/configs/qbittorrent/cache/
+/sharedvolume/configs/qbittorrent/temp/
+/sharedvolume/configs/qbittorrent/resume/
+
+# Ignore Radarr, Bazarr and Sonarr unnecessary files
+/sharedvolume/configs/radarr/logs/
+/sharedvolume/configs/radarr/cache/
+/sharedvolume/configs/radarr/temp/
+/sharedvolume/configs/sonarr/logs/
+/sharedvolume/configs/sonarr/cache/
+/sharedvolume/configs/sonarr/temp/
+/sharedvolume/configs/bazarr/cache/
+/sharedvolume/configs/bazarr/cache/
+/sharedvolume/configs/bazarr/config/log
+
+/sharedvolume/configs/bazarr/backup/
+# Ignore Jellyseerr-specific files
+/sharedvolume/configs/jellyseerr/logs/
+/sharedvolume/configs/jellyseerr/cache/
+
+/sharedvolume/configs/qbittorrent/config/qBittorrent/BT_backup
+
+#-------------------------------------
+
+# Ignore logs
+/configs/**/logs/
+/configs/**/*.log
+
+# Ignore cache and temporary files
+/configs/**/cache/
+/configs/**/temp/
+/configs/**/*.tmp
+
+# Ignore backup and database lock files
+/configs/**/*.db-shm
+/configs/**/*.db-wal
+/configs/**/*.bak
+/configs/**/*.old
+/configs/**/*.swp
+
+# Ignore system-specific files
+/configs/.DS_Store
+/configs/Thumbs.db
+
+# Ignore Docker-related files
+/configs/docker-compose.override.yml
+/configs/.env
+/configs/.env.*
+
+# Ignore Homarr-specific files
+/configs/homarr/public/icons/generated/
+
+# Ignore Jellyfin-specific files
+
+/configs/jellyfin/metadata/
+/configs/jellyfin/log/
+/configs/jellyfin/data/transcodes/
+/configs/jellyfin/config/lastfm/
+/configs/jellyfin/config/Cache/
+
+# Ignore qBittorrent-specific files
+/configs/qbittorrent/logs/
+/configs/qbittorrent/cache/
+/configs/qbittorrent/temp/
+/configs/qbittorrent/resume/
+
+# Ignore Radarr, Bazarr and Sonarr unnecessary files
+/configs/radarr/logs/
+/configs/radarr/cache/
+/configs/radarr/temp/
+/configs/sonarr/logs/
+/configs/sonarr/cache/
+/configs/sonarr/temp/
+/configs/bazarr/cache/
+/configs/bazarr/cache/
+
+/configs/bazarr/backup/
+# Ignore Jellyseerr-specific files
+/configs/jellyseerr/logs/
+/configs/jellyseerr/cache/
+sharedvolume/configs/jackett/Jackett/log.txt
+sharedvolume/configs/qbittorrent/config/qBittorrent/ipc-socket
+sharedvolume/configs/jellyfin/config/data/subtitles/
